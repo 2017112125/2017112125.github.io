@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: rgba(51,51,51,1);
+}
+.title{
+	padding:10px 0;
+	font-size:50px;
+	text-align: center;
+	height:110px;
+	line-height:110px;
+	font-weight: bold;
+	color:white;
+	background:url(../images/勇士.png) no-repeat top left 300px
+	,url(../images/猛龙.png) no-repeat top right 300px;
+}
+.container{
+	width:99%;
+	height: 500px;
+	/*background-color: yellow;*/
+	margin:0 auto;
+	position: relative;
+}
+.garden{
+	width:40%;
+	margin:0 auto;
+	font-size: 45px;
+	color:rgba(255,150,150);
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.date{
+	width:40%;
+	margin:0 auto;
+	font-size:15px;
+	height: 20px;
+	text-align: center;
+	line-height:20px;
+	color: white;
+}
+.left{
+	width:47%;
+	margin:0 2% 0 1%;
+	/*background-color: red;*/
+	float:left;
+	/*background:url(../images/勇士队标.png) center no-repeat;*/
+	/*background-size: 500px 500px;*/
+}
+.right{
+	width: 47%;
+	margin:0 1% 0 2%;
+	/*background-color: blue;*/
+	float:right;
+	/*background:url(../images/猛龙.png) center no-repeat;*/
+	/*background-size: 500px 500px;*/
+}
+.player{
+	height: 50px;
+	width:70%;
+	margin:2% 15%;
+	line-height:50px; 
+	font-size:25px;
+	background-color:white;
+	border-radius: 8px;
+	text-align: right;
+	font-weight: bold;
+}
+.blue{
+	background-color: orange;
+	color:rgba(51,51,51,1);
+}
+.blue:hover{
+	background-color: rgba(51,51,51,1);
+	color:orange;
+}
+.red{
+	background-color: orange;
+	color:rgba(51,51,51,1);
+}
+.red:hover{
+	background-color:rgba(51,51,51,1);
+	color:orange;
+}
+.red span{
+	background-color:rgba(51,51,51,1);
+	color:white;
+}
+.blue span{
+	background-color:rgba(51,51,51,1);
+	color:white;
+}
+div.player span{
+	float: right;
+	width: 60%;
+	height:50px;
+	box-sizing:border-box;
+	border:2px solid rgba(151,151,151,1);
+	line-height:48px;
+	font-size:25px;
+	border-radius:8px;
+	text-align: center;
+}
+.blue:hover span{
+	color:rgba(51,51,51,1);
+	font-weight: bold;
+	background-color:orange;
+	border-color:rgba(255,255,255,1);
+}
+.red:hover span{
+	color:rgba(51,51,51,1);
+	background-color:orange;
+	font-weight: bold;
+	border-color:rgba(255,255,255,1);
+}
+span{
+	font-weight: normal;
+	font-size: 35px;
+}
+.line{
+	border:1px white solid;
+	clear: both;
+}
+.math{
+	width:100%;
+	font-size: 35px;
+	text-align: center;
+	color:white;
+}
+.show{
+	width:95%;
+	/*height: 600px;*/
+	margin:0 2.5%;
+	background-color: yellow;
+	border-radius: 8px;
+	position: relative;
+}
+.hang{
+	width:20%;
+	height:50px;
+	box-sizing: border-box;
+	border:2px solid rgba(151,151,151,1);
+	float:left;
+	border-radius: 5px;
+	font-size:35px;
+	text-align: center;
+	line-height: 50px;
+	color:white;
+	background-color: rgba(51,51,51,1);
+}
+.tdone{
+	width:100%;
+	background-color: red;
+	position:absolute;
+}
+.one:hover{
+	color:rgba(51,51,51,1);
+	background-color:orange;
+}
+.two:hover{
+	color:rgba(51,51,51,1);
+	background-color:orange;
+}
+.three:hover{
+	color:rgba(51,51,51,1);
+	background-color:orange;
+}
+.four:hover{
+	color:rgba(51,51,51,1);
+	background-color:orange;
+}
+.five:hover{
+	color:rgba(51,51,51,1);
+	background-color:orange;
+}
+.one.hang:hover~.tdone.one{
+	visibility:visible;
+}
+.two.hang:hover~.tdtwo.two{
+	visibility:visible;
+}
+.tdone{
+	width:100%;
+	float:left;
+	position: absolute;
+	visibility: hidden;
+	top:52px;
+}
+.tdtwo{
+	width:100%;
+	float:left;
+	position: absolute;
+	visibility: hidden;
+	top:52px;
+}
+.th{
+	width:20%;
+	float:left;
+	font-size: 35px;
+	background-color: orange;
+	box-sizing: border-box;
+	border:2px solid yellow;
+	border-radius: 5px;
+	color:rgba(51,51,51,1);
+	text-align: center;
+}
+
+.tdthree{
+	width:100%;
+	float:left;
+	position:absolute;
+	top:52px;
+	visibility:hidden;
+}
+.three.hang:hover~.tdthree.three{
+	visibility:visible;
+}
+.tdfour{
+	width:100%;
+	float:left;
+	position:absolute;
+	top:52px;
+	visibility:hidden;
+}
+.four.hang:hover~.tdfour.four{
+	visibility:visible;
+}
+.tdfive{
+	width:100%;
+	float:left;
+	position:absolute;
+	top:52px;
+	visibility:hidden;
+}
+.five.hang:hover~.tdfive.five{
+	visibility:visible;
+}
+.hello{
+	position: absolute;
+	width:60px;
+	top:25%;
+	left:48%;
+	height:250px;
+	font-size:55px;
+	text-align: center;
+	color:white;
+	font-family:"叶根友行书繁";
+}
+.hello:hover{
+	animation: mycolor 3s ease;
+}
+@keyframes mycolor{
+	10%  {color:white;}
+	20%  {color:orange;}
+	30%  {color:yellow;}
+	40%  {color:#00FFFF;}
+	50%  {color:#FF0000;}
+	60%  {color:#FF00FF;}
+	70%  {color:#0000FF;}
+	80%  {color:#FFFF00;}
+	90%  {color:#00FF00;}
+	100% {color:#FFFFFF;}
+
+}
